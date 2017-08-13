@@ -1,0 +1,18 @@
+*.iml
+NotificationCloudMessagingExample/.gradle
+NotificationCloudMessagingExample/local.properties
+NotificationCloudMessagingExample/.idea/workspace.xml
+NotificationCloudMessagingExample/.idea/libraries
+NotificationCloudMessagingExample/.DS_Store
+NotificationCloudMessagingExample/build
+NotificationCloudMessagingExample/captures
+NotificationCloudMessagingExample/.externalNativeBuild
+NotificationCloudMessagingExample/.idea/modules.xml
+NotificationCloudMessagingExample/.idea/misc.xml
+
+### IntelliJ IDEA ###
+NotificationCloudMessagingExample/.idea
+NotificationCloudMessagingExample/*.iws
+NotificationCloudMessagingExample/*.iml
+NotificationCloudMessagingExample/*.ipr
+
