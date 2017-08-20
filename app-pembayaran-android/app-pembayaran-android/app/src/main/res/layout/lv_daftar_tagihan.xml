@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="10dp"
+    android:paddingTop="5dp">
+
+    <TextView
+        android:id="@+id/lblNamaProduk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Nama Produk" />
+
+    <TextView
+        android:id="@+id/lblNomorPelanggan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NomorPelanggan"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/lblNamaPelanggan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:paddingEnd="10dp"
+        android:text="Nama Pelanggan" />
+
+    <TextView
+        android:id="@+id/lblBulanTagihan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lblNamaPelanggan"
+        android:layout_marginTop="22dp"
+        android:paddingEnd="10dp"
+        android:text=" Januari 2017" />
+
+    <TextView
+        android:id="@+id/txtBulanTagihan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblNomorPelanggan"
+        android:layout_alignStart="@+id/lblNomorPelanggan"
+        android:layout_below="@+id/lblNomorPelanggan"
+        android:layout_marginTop="22dp"
+        android:text="Bulan Tagihan" />
+
+    <TextView
+        android:id="@+id/txtJatuhTempo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtBulanTagihan"
+        android:layout_alignStart="@+id/txtBulanTagihan"
+        android:layout_below="@+id/txtBulanTagihan"
+        android:layout_marginTop="29dp"
+        android:text="Jatuh Tempo" />
+
+    <TextView
+        android:id="@+id/lblJatuhTempo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/txtJatuhTempo"
+        android:paddingEnd="10dp"
+        android:text="20 Januari 2017" />
+
+    <TextView
+        android:id="@+id/lblNilai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtJatuhTempo"
+        android:layout_marginTop="39dp"
+        android:layout_toRightOf="@+id/lblNamaProduk"
+        android:layout_toStartOf="@+id/lblNamaPelanggan"
+        android:text="Rp. 100.000,00"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+    <Button
+        android:id="@+id/btnBayar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Bayar"
+        android:layout_below="@+id/lblNilai"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

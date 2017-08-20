@@ -1,0 +1,38 @@
+*.iml
+app-pembayaran-android/.gradle
+app-pembayaran-android/local.properties
+app-pembayaran-android/.idea/workspace.xml
+app-pembayaran-android/.idea/libraries
+app-pembayaran-android/.DS_Store
+app-pembayaran-android/build/*
+app-pembayaran-android/captures
+app-pembayaran-android/.externalNativeBuild
+app-pembayaran-android/.idea/modules.xml
+app-pembayaran-android/.idea/misc.xml
+
+### App Server ###
+.gradle
+pembayaran-server/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### STS ###
+pembayaran-server/.apt_generated
+pembayaran-server/.classpath
+pembayaran-server/.factorypath
+pembayaran-server/.project
+pembayaran-server/.settings
+pembayaran-server/.springBeans
+
+### IntelliJ IDEA ###
+pembayaran-server/.idea
+pembayaran-server/*.iws
+pembayaran-server/*.iml
+pembayaran-server/*.ipr
+
+### NetBeans ###
+pembayaran-server/nbproject/private/
+pembayaran-server/build/
+pembayaran-server/nbbuild/
+pembayaran-server/dist/
+pembayaran-server/nbdist/
+pembayaran-server/.nb-gradle/

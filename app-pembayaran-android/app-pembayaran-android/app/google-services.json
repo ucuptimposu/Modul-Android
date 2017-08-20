@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "534506516991",
+    "firebase_url": "https://latihan-android.firebaseio.com",
+    "project_id": "latihan-android",
+    "storage_bucket": "latihan-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534506516991:android:633d9774a9bbf196",
+        "android_client_info": {
+          "package_name": "com.timposu.aplikasipembayaran"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534506516991-i3dfemou32ps33tuv9aje22fckn7vg9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7JmpEdtZW5Oboe497_fgumSsiRKvEls0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534506516991:android:cd43eb21d8d7277d",
+        "android_client_info": {
+          "package_name": "com.timposu.notificationcloudmessagingexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534506516991-i3dfemou32ps33tuv9aje22fckn7vg9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7JmpEdtZW5Oboe497_fgumSsiRKvEls0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtDashBoard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="Rp.100.000,00"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnBayarSemua"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtDashBoard"
+        android:layout_marginLeft="20dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:text="Bayar Semua"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+    <Button
+        android:id="@+id/btnRefresh"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtDashBoard"
+        android:layout_marginRight="20dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="10dp"
+        android:text="Refresh"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+    <ListView
+        android:id="@+id/lvTagihan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnBayarSemua"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_toStartOf="@+id/btnRefresh" />
+</RelativeLayout>
