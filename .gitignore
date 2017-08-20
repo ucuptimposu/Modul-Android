@@ -16,3 +16,42 @@ NotificationCloudMessagingExample/*.iws
 NotificationCloudMessagingExample/*.iml
 NotificationCloudMessagingExample/*.ipr
 
+*.iml
+app-pembayaran-android/app-pembayaran-android/.gradle
+app-pembayaran-android/app-pembayaran-android/local.properties
+app-pembayaran-android/app-pembayaran-android/.idea/workspace.xml
+app-pembayaran-android/app-pembayaran-android/.idea/libraries
+app-pembayaran-android/app-pembayaran-android/.DS_Store
+app-pembayaran-android/app-pembayaran-android/build/*
+app-pembayaran-android/app-pembayaran-android/captures
+app-pembayaran-android/app-pembayaran-android/.externalNativeBuild
+app-pembayaran-android/app-pembayaran-android/.idea/modules.xml
+app-pembayaran-android/app-pembayaran-android/.idea/misc.xml
+
+### App Server ###
+.gradle
+pembayaran-server/pembayaran-serverbuild/
+!gradle/wrapper/gradle-wrapper.jar
+
+### STS ###
+pembayaran-server/pembayaran-server.apt_generated
+pembayaran-server/pembayaran-server.classpath
+pembayaran-server/pembayaran-server.factorypath
+pembayaran-server/pembayaran-server.project
+pembayaran-server/pembayaran-server.settings
+pembayaran-server/pembayaran-server.springBeans
+
+### IntelliJ IDEA ###
+pembayaran-server/pembayaran-server.idea
+pembayaran-server/pembayaran-server*.iws
+pembayaran-server/pembayaran-server*.iml
+pembayaran-server/pembayaran-server*.ipr
+
+### NetBeans ###
+pembayaran-server/pembayaran-servernbproject/private/
+pembayaran-server/pembayaran-serverbuild/
+pembayaran-server/pembayaran-servernbbuild/
+pembayaran-server/pembayaran-serverdist/
+pembayaran-server/pembayaran-servernbdist/
+pembayaran-server/pembayaran-server.nb-gradle/
+
