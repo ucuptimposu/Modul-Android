@@ -30,28 +30,30 @@ app-pembayaran-android/app-pembayaran-android/.idea/misc.xml
 
 ### App Server ###
 .gradle
-pembayaran-server/pembayaran-serverbuild/
+pembayaran-server/pembayaran-server/build/
 !gradle/wrapper/gradle-wrapper.jar
+pembayaran-server/pembayaran-server/.git
+
 
 ### STS ###
-pembayaran-server/pembayaran-server.apt_generated
-pembayaran-server/pembayaran-server.classpath
-pembayaran-server/pembayaran-server.factorypath
-pembayaran-server/pembayaran-server.project
-pembayaran-server/pembayaran-server.settings
-pembayaran-server/pembayaran-server.springBeans
+pembayaran-server/pembayaran-server/.apt_generated
+pembayaran-server/pembayaran-server/.classpath
+pembayaran-server/pembayaran-server/.factorypath
+pembayaran-server/pembayaran-server/.project
+pembayaran-server/pembayaran-server/.settings
+pembayaran-server/pembayaran-server/.springBeans
 
 ### IntelliJ IDEA ###
-pembayaran-server/pembayaran-server.idea
-pembayaran-server/pembayaran-server*.iws
-pembayaran-server/pembayaran-server*.iml
-pembayaran-server/pembayaran-server*.ipr
+pembayaran-server/pembayaran-server/.idea
+pembayaran-server/pembayaran-server/*.iws
+pembayaran-server/pembayaran-server/*.iml
+pembayaran-server/pembayaran-server/*.ipr
 
 ### NetBeans ###
-pembayaran-server/pembayaran-servernbproject/private/
-pembayaran-server/pembayaran-serverbuild/
-pembayaran-server/pembayaran-servernbbuild/
-pembayaran-server/pembayaran-serverdist/
-pembayaran-server/pembayaran-servernbdist/
-pembayaran-server/pembayaran-server.nb-gradle/
+pembayaran-server/pembayaran-server/nbproject/private/
+pembayaran-server/pembayaran-server/build/
+pembayaran-server/pembayaran-server/nbbuild/
+pembayaran-server/pembayaran-server/dist/
+pembayaran-server/pembayaran-server/nbdist/
+pembayaran-server/pembayaran-server/.nb-gradle/
 
